@@ -1,17 +1,9 @@
 ## code your solution here. 
-class cat 
+class Cat
+  
+  attr_accessor :name  
+
   def meow
     puts "meow!"
   end
-  def cat_name=(name)
-    name = @name
-  end
-  def name
-    @name
-  end
 end
-
-maru =cat.new 
-maru.name = "Maru"
-maru.name
-maru.meow
